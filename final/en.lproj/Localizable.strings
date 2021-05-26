@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  StrapiBlog
+
+  Created by Cyril Garcia on 5/25/21.
+  
+*/
+
+"Language Preference" = "Language Preference";
+"Strapi Blog" = "Strapi Blog";
+"Settings" = "Settings";

@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0187FA4A265DD364005AB4D6 /* StrapiMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187FA49265DD364005AB4D6 /* StrapiMock.swift */; };
+		0187FA55265DDAB2005AB4D6 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187FA54265DDAB2005AB4D6 /* ToolbarView.swift */; };
+		01B212E6265DE1890081B920 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01B212E8265DE1890081B920 /* Localizable.strings */; };
+		01EE2E2F265DB2FD007B6D60 /* StrapiBlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E2E265DB2FD007B6D60 /* StrapiBlogApp.swift */; };
+		01EE2E31265DB2FD007B6D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E30265DB2FD007B6D60 /* ContentView.swift */; };
+		01EE2E33265DB2FE007B6D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EE2E32265DB2FE007B6D60 /* Assets.xcassets */; };
+		01EE2E36265DB2FE007B6D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EE2E35265DB2FE007B6D60 /* Preview Assets.xcassets */; };
+		01EE2E3F265DB31D007B6D60 /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E3D265DB31D007B6D60 /* Localizations.swift */; };
+		01EE2E40265DB31D007B6D60 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E3E265DB31D007B6D60 /* Article.swift */; };
+		01EE2E48265DB333007B6D60 /* Strapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E44265DB333007B6D60 /* Strapi.swift */; };
+		01EE2E49265DB333007B6D60 /* StrapiCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E45265DB333007B6D60 /* StrapiCore.swift */; };
+		01EE2E4C265DB395007B6D60 /* ContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E4B265DB395007B6D60 /* ContentCellView.swift */; };
+		01EE2E4E265DB39E007B6D60 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E4D265DB39E007B6D60 /* String+Extension.swift */; };
+		01EE2E50265DB3A3007B6D60 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E4F265DB3A3007B6D60 /* TextView.swift */; };
+		01EE2E53265DB3B6007B6D60 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E52265DB3B6007B6D60 /* ArticleView.swift */; };
+		01EE2E55265DB3B9007B6D60 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE2E54265DB3B9007B6D60 /* SettingsView.swift */; };
+		01EE2E58265DB442007B6D60 /* demo-articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 01EE2E57265DB442007B6D60 /* demo-articles.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0187FA49265DD364005AB4D6 /* StrapiMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrapiMock.swift; sourceTree = "<group>"; };
+		0187FA54265DDAB2005AB4D6 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		01B212E7265DE1890081B920 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01B212E9265DE1950081B920 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		01B212EA265DE19C0081B920 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		01EE2E2B265DB2FD007B6D60 /* StrapiBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrapiBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01EE2E2E265DB2FD007B6D60 /* StrapiBlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrapiBlogApp.swift; sourceTree = "<group>"; };
+		01EE2E30265DB2FD007B6D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01EE2E32265DB2FE007B6D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01EE2E35265DB2FE007B6D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01EE2E37265DB2FE007B6D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01EE2E3D265DB31D007B6D60 /* Localizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
+		01EE2E3E265DB31D007B6D60 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		01EE2E44265DB333007B6D60 /* Strapi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strapi.swift; sourceTree = "<group>"; };
+		01EE2E45265DB333007B6D60 /* StrapiCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrapiCore.swift; sourceTree = "<group>"; };
+		01EE2E4B265DB395007B6D60 /* ContentCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCellView.swift; sourceTree = "<group>"; };
+		01EE2E4D265DB39E007B6D60 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		01EE2E4F265DB3A3007B6D60 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		01EE2E52265DB3B6007B6D60 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		01EE2E54265DB3B9007B6D60 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		01EE2E57265DB442007B6D60 /* demo-articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "demo-articles.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01EE2E28265DB2FD007B6D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0187FA4B265DD5EA005AB4D6 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				0187FA49265DD364005AB4D6 /* StrapiMock.swift */,
+				01EE2E57265DB442007B6D60 /* demo-articles.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		0187FA56265DDD28005AB4D6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				01EE2E4B265DB395007B6D60 /* ContentCellView.swift */,
+				0187FA54265DDAB2005AB4D6 /* ToolbarView.swift */,
+				01EE2E4F265DB3A3007B6D60 /* TextView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		01EE2E22265DB2FD007B6D60 = {
+			isa = PBXGroup;
+			children = (
+				01B212E8265DE1890081B920 /* Localizable.strings */,
+				01EE2E2D265DB2FD007B6D60 /* StrapiBlog */,
+				01EE2E2C265DB2FD007B6D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01EE2E2C265DB2FD007B6D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01EE2E2B265DB2FD007B6D60 /* StrapiBlog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01EE2E2D265DB2FD007B6D60 /* StrapiBlog */ = {
+			isa = PBXGroup;
+			children = (
+				01EE2E2E265DB2FD007B6D60 /* StrapiBlogApp.swift */,
+				0187FA4B265DD5EA005AB4D6 /* Mock */,
+				01EE2E51265DB3A9007B6D60 /* Helper Files */,
+				01EE2E41265DB322007B6D60 /* Models */,
+				01EE2E56265DB3BD007B6D60 /* Views */,
+				01EE2E4A265DB337007B6D60 /* Strapi Framework */,
+				01EE2E32265DB2FE007B6D60 /* Assets.xcassets */,
+				01EE2E37265DB2FE007B6D60 /* Info.plist */,
+				01EE2E34265DB2FE007B6D60 /* Preview Content */,
+			);
+			path = StrapiBlog;
+			sourceTree = "<group>";
+		};
+		01EE2E34265DB2FE007B6D60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01EE2E35265DB2FE007B6D60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01EE2E41265DB322007B6D60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01EE2E3E265DB31D007B6D60 /* Article.swift */,
+				01EE2E3D265DB31D007B6D60 /* Localizations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01EE2E4A265DB337007B6D60 /* Strapi Framework */ = {
+			isa = PBXGroup;
+			children = (
+				01EE2E44265DB333007B6D60 /* Strapi.swift */,
+				01EE2E45265DB333007B6D60 /* StrapiCore.swift */,
+			);
+			path = "Strapi Framework";
+			sourceTree = "<group>";
+		};
+		01EE2E51265DB3A9007B6D60 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				01EE2E4D265DB39E007B6D60 /* String+Extension.swift */,
+			);
+			path = "Helper Files";
+			sourceTree = "<group>";
+		};
+		01EE2E56265DB3BD007B6D60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0187FA56265DDD28005AB4D6 /* CustomViews */,
+				01EE2E30265DB2FD007B6D60 /* ContentView.swift */,
+				01EE2E52265DB3B6007B6D60 /* ArticleView.swift */,
+				01EE2E54265DB3B9007B6D60 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01EE2E2A265DB2FD007B6D60 /* StrapiBlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EE2E3A265DB2FE007B6D60 /* Build configuration list for PBXNativeTarget "StrapiBlog" */;
+			buildPhases = (
+				01EE2E27265DB2FD007B6D60 /* Sources */,
+				01EE2E28265DB2FD007B6D60 /* Frameworks */,
+				01EE2E29265DB2FD007B6D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrapiBlog;
+			productName = StrapiBlog;
+			productReference = 01EE2E2B265DB2FD007B6D60 /* StrapiBlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01EE2E23265DB2FD007B6D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					01EE2E2A265DB2FD007B6D60 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 01EE2E26265DB2FD007B6D60 /* Build configuration list for PBXProject "StrapiBlog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				"zh-Hans",
+			);
+			mainGroup = 01EE2E22265DB2FD007B6D60;
+			productRefGroup = 01EE2E2C265DB2FD007B6D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01EE2E2A265DB2FD007B6D60 /* StrapiBlog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01EE2E29265DB2FD007B6D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EE2E36265DB2FE007B6D60 /* Preview Assets.xcassets in Resources */,
+				01B212E6265DE1890081B920 /* Localizable.strings in Resources */,
+				01EE2E33265DB2FE007B6D60 /* Assets.xcassets in Resources */,
+				01EE2E58265DB442007B6D60 /* demo-articles.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01EE2E27265DB2FD007B6D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EE2E4E265DB39E007B6D60 /* String+Extension.swift in Sources */,
+				01EE2E40265DB31D007B6D60 /* Article.swift in Sources */,
+				01EE2E48265DB333007B6D60 /* Strapi.swift in Sources */,
+				01EE2E31265DB2FD007B6D60 /* ContentView.swift in Sources */,
+				0187FA4A265DD364005AB4D6 /* StrapiMock.swift in Sources */,
+				01EE2E2F265DB2FD007B6D60 /* StrapiBlogApp.swift in Sources */,
+				01EE2E3F265DB31D007B6D60 /* Localizations.swift in Sources */,
+				01EE2E50265DB3A3007B6D60 /* TextView.swift in Sources */,
+				01EE2E53265DB3B6007B6D60 /* ArticleView.swift in Sources */,
+				01EE2E4C265DB395007B6D60 /* ContentCellView.swift in Sources */,
+				01EE2E49265DB333007B6D60 /* StrapiCore.swift in Sources */,
+				01EE2E55265DB3B9007B6D60 /* SettingsView.swift in Sources */,
+				0187FA55265DDAB2005AB4D6 /* ToolbarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01B212E8265DE1890081B920 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B212E7265DE1890081B920 /* en */,
+				01B212E9265DE1950081B920 /* fr */,
+				01B212EA265DE19C0081B920 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01EE2E38265DB2FE007B6D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01EE2E39265DB2FE007B6D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01EE2E3B265DB2FE007B6D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StrapiBlog/Preview Content\"";
+				DEVELOPMENT_TEAM = R986STKYJ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StrapiBlog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ByCyril.StrapiBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01EE2E3C265DB2FE007B6D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StrapiBlog/Preview Content\"";
+				DEVELOPMENT_TEAM = R986STKYJ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StrapiBlog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ByCyril.StrapiBlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01EE2E26265DB2FD007B6D60 /* Build configuration list for PBXProject "StrapiBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EE2E38265DB2FE007B6D60 /* Debug */,
+				01EE2E39265DB2FE007B6D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01EE2E3A265DB2FE007B6D60 /* Build configuration list for PBXNativeTarget "StrapiBlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EE2E3B265DB2FE007B6D60 /* Debug */,
+				01EE2E3C265DB2FE007B6D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01EE2E23265DB2FD007B6D60 /* Project object */;
+}
