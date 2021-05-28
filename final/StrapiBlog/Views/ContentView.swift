@@ -26,7 +26,7 @@ struct ContentView: View {
         let supportedLocalization = strapi.supportedLocalization
         let preferredLocale = Bundle.preferredLocalizations(from: supportedLocalization)
         
-        let locale = preferredLocale.first!.components(separatedBy: "-").first!
+        let locale = preferredLocale.first!
         
         strapi.contentType(.articles).locale(locale).fetch()
     }
