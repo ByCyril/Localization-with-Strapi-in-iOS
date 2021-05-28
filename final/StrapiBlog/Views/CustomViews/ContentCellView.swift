@@ -9,29 +9,34 @@ import SwiftUI
 
 struct ContentCellView: View {
     
-    var title: String
-    var content: String
-    var publishedDate: String
+    var article: Article
     
+    init(_ article: Article) {
+        self.article = article
+    }
+
     var body: some View {
-        VStack(alignment: .leading, spacing: nil, content: {
-            Text(title).font(.title)
-            Text(content).font(.body)
-                .lineLimit(3)
-            HStack {
-                Spacer()
-                Text(publishedDate.toDate()).font(.caption)
-            }.padding(.top)
-        })
+        NavigationLink(
+            destination: ArticleView(article: article),
+            label: {
+                VStack(alignment: .leading, spacing: nil, content: {
+                    Text(article.title).font(.title)
+                    Text(article.content).font(.body)
+                        .lineLimit(3)
+                    HStack {
+                        Spacer()
+                        Text(article.publishedAt.toDate()).font(.caption)
+                    }.padding(.top)
+                })
+                
+            })
     }
 
 }
 
 struct ContentCellView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentCellView(title: "Hello, World",
-                        content: "this is a sample body",
-                        publishedDate: "date")
+        ContentCellView(Article(id: 1, title: "Hello, World", content: "This is a sample body", locale: "en", publishedAt: "somedate"))
     }
 }
 

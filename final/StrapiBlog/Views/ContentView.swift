@@ -14,11 +14,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(strapi.data) { article in
-                NavigationLink(
-                    destination: ArticleView(article: article),
-                    label: {
-                        ContentCellView(title: article.title, content: article.content, publishedDate: article.publishedAt)
-                    })
+                
+                ContentCellView(article)
+                
             }.navigationTitle("Strapi Blog")
             .modifier(ToolbarView())
         }.onAppear(perform: loadContent)
